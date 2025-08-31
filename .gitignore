@@ -1,0 +1,68 @@
+# macOS
+.DS_Store
+
+# CSV and large raw data
+*.csv
+*.npz
+*.txt
+*.joblib
+*.png
+*.pth
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+*.xltx
+*.xltm
+*.xlt
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+
+# Virtual environments
+*_env/
+venv/
+ENV/
+
+# Local configuration
+*.env
+*.local
+config.local.yaml
+
+# Local scripts
+upload_to_github.sh
+init_git_repo.sh
+•cursorrules
+
+
+# 屏蔽 Foundation Models 目录下的克隆仓库
+3_Benchmark/5_Foundation_Models/TimesFM/timesfm-forecasting/
+3_Benchmark/5_Foundation_Models/Chronos/chronos-forecasting/
+3_Benchmark/5_Foundation_Models/Uni2ts/uni2ts-forecasting/
+
+# 虚拟环境
+chronos_env
+uni2ts_env
+timesfm_env
