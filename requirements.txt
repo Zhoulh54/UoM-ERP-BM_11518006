@@ -1,0 +1,58 @@
+# =============================================================================
+# Requirements for General Models (Linear Models, MLP, LSTM, Autoformer, N-Beats)
+# Python Dependencies for ERP Time Series Forecasting Project
+# =============================================================================
+
+# ========== Core Data Science Libraries ==========
+numpy==1.26.4
+pandas==2.3.0
+scipy==1.13.1
+scikit-learn==1.7.0
+statsmodels==0.14.4
+joblib==1.5.1
+
+# ========== Visualization ==========
+matplotlib==3.10.0
+seaborn==0.13.2
+
+# ========== Deep Learning & PyTorch ==========
+torch==2.7.1
+
+# ========== Hyperparameter Optimization ==========
+optuna==4.4.0
+
+# ========== Financial Data ==========
+yfinance==0.2.65
+
+# ========== Progress Bars & Utilities ==========
+tqdm==4.67.1
+
+# ========== Development & Jupyter ==========
+jupyter==1.1.1
+ipykernel==6.29.5
+notebook==7.3.2
+ipython==8.30.0
+jupyter-core==5.7.2
+jupyter-client==8.6.3
+matplotlib-inline==0.1.6
+
+# ========== Data Processing & Utils ==========
+requests==2.32.3
+pyyaml==6.0.2
+packaging==24.2
+
+# ========== Type Checking ==========
+typing-extensions==4.12.2
+
+# ========== Additional Scientific Libraries ==========
+patsy==1.0.1
+
+# ========== Development Tools ==========
+rich==14.0.0
+
+# ========== Note ==========
+# This requirements file is for general machine learning models including:
+# - Linear Models (Ridge, Lasso, ElasticNet, PLS, etc.)
+# - Neural Networks (MLP, LSTM)
+# - Transformer Models (Autoformer, N-Beats)
+# - Portfolio backtesting and evaluation

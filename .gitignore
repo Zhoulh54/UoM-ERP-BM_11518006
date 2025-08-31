@@ -4,7 +4,6 @@
 # CSV and large raw data
 *.csv
 *.npz
-*.txt
 *.joblib
 *.png
 *.pth
