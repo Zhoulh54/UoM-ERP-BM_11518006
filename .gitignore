@@ -1,14 +1,13 @@
 # macOS
 .DS_Store
 
-# CSV and large raw data
+# Data and large files
 *.csv
 *.npz
 *.joblib
 *.png
 *.pth
 *.pdf
-*.png
 *.jpg
 *.jpeg
 *.gif
@@ -23,17 +22,17 @@
 *.xltm
 *.xlt
 
-# Jupyter cache
+# Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
 # Python cache
 __pycache__/
 *.py[cod]
 
-# Logs
+# Log files
 *.log
 
-# IDEs and editors
+# IDE/editor settings
 .vscode/
 .idea/
 *.swp
@@ -45,7 +44,7 @@ __pycache__/
 venv/
 ENV/
 
-# Local configuration
+# Local configuration files
 *.env
 *.local
 config.local.yaml
@@ -55,13 +54,12 @@ upload_to_github.sh
 init_git_repo.sh
 •cursorrules
 
-
-# 屏蔽 Foundation Models 目录下的克隆仓库
+# Ignore cloned repositories in Foundation Models directory
 3_Benchmark/5_Foundation_Models/TimesFM/timesfm-forecasting/
 3_Benchmark/5_Foundation_Models/Chronos/chronos-forecasting/
 3_Benchmark/5_Foundation_Models/Uni2ts/uni2ts-forecasting/
 
-# 虚拟环境
+# Virtual environments for specific projects
 chronos_env
 uni2ts_env
 timesfm_env
